@@ -1,0 +1,295 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: #F3F3F3;
+}
+
+#title {
+  font-weight: 700;
+  margin-left: 14%;
+  font-size: 31px;
+  color: black;
+}
+
+.topic {
+  width: 629px;
+  border-radius: 20px; 
+  margin: 108px 0px 50px 0px;
+  padding: 72px 0px 73px 0px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.content {
+  color: #5b5b5b;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 16px;
+  color: #7D7D7D;
+}
+
+.top {
+  width: 100%;
+  height: 70px;
+  background-color: #494949;
+}
+
+.proname {
+  margin: 0px;
+  padding: 15px 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.direct {
+  margin-top: 25px;
+}
+
+::placeholder {
+  color: #B5B5B5;
+}
+
+#main input {
+  margin-top: 29px;
+  padding: 0px 15px;
+  height: 47px;
+  width: 438px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #F3F3F3;
+}
+
+#main input[type=text] {
+  outline: none;
+}
+
+#main input:hover {
+  outline: none;
+  border: 2px solid #0083ff;
+}
+
+#main input:focus-visible {
+  outline: none;
+}
+
+#main button {
+  margin-top: 29px;
+  height: 47px;
+  width: 438px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #FF1C54;
+}
+
+#main button:hover {
+  outline: none;
+  border: 2px solid #0083ff;
+}
+
+
+
+
+
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #494949;
+}
+
+.outtop {
+  color: #5b5b5b;
+  width: 100%;
+  display: flex;
+  margin: 80px 0px 80px 0px;
+  justify-content: center;
+}
+
+.out {
+  width: 690px;
+}
+
+#top{
+  margin: 0px;
+  padding: 15px 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#center{
+  margin-top: 25px;
+}
+
+#center input {
+  margin-right: 8px;
+  padding: 0px 15px;
+  height: 47px;
+  width: 557px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #F3F3F3;
+}
+
+#center input[type=text] {
+  outline: none;
+}
+
+#center input:hover {
+  outline: none;
+  border: 2px solid #0083ff;
+}
+
+#center input:focus-visible {
+  outline: none;
+}
+
+#center button {
+  width: 115px;
+  height: 46px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #FF1C54;
+}
+
+#center button:hover {
+  outline: none;
+  border: 2px solid #0083ff;
+}
+
+
+.detail {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.box-container {
+  margin-top: 32px;
+  width: 668px;
+}
+
+.box-container label {
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#arrow {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.remove {
+  margin-top: 5px;
+  border: none;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+.menu{
+  width: 95%;
+}
+
+#out{
+  width: 5%;
+  font-size: 18px;
+  margin: 25px 0px;
+  color: white;
+  cursor: pointer;
+}
+
+#tname {
+  font-size: 31px;
+  color: black;
+}
+
+#quotes {
+  height: 37px;
+  font-size: 31px;
+  color: #717171;
+  font-weight: 700;
+  line-height: 37px;
+  margin: 112px 0px 0px 0px;
+}
+
+input[type='checkbox'] {
+  place-content: center;
+  accent-color: #ff0539;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  margin: 0px 20px 0px 0px;
+}
+
+input[type='checkbox']::before {
+  content: '';
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+}
+
+input[type='checkbox']::before:checked {
+  background-color: #ff0539;
+}
+
+input[type=checkbox]:checked+.complete {
+  text-decoration-line: line-through;
+}
+
+.fa {
+  font-size: 18px;
+  color: #ff0539;
+}
+
+.fa.fa-trash-o {
+  width: 20px;
+  height: 20px;
+}
+
+.fa:hover {
+  color: #0083ff;
+}
+
+
+
+
